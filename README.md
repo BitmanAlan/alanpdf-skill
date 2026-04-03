@@ -56,13 +56,13 @@ bash scripts/render_examples.sh
 Clone this repository directly into your Codex skills directory:
 
 ```bash
-git clone https://github.com/<your-github-username>/alanpdf.git ~/.codex/skills/alanpdf
+git clone https://github.com/BitmanAlan/alanpdf.git ~/.codex/skills/alanpdf
 ```
 
 If you prefer SSH:
 
 ```bash
-git clone git@github.com:<your-github-username>/alanpdf.git ~/.codex/skills/alanpdf
+git clone git@github.com:BitmanAlan/alanpdf.git ~/.codex/skills/alanpdf
 ```
 
 The skill entrypoint is [`SKILL.md`](SKILL.md). UI metadata lives in [`agents/openai.yaml`](agents/openai.yaml).
