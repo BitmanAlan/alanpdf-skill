@@ -1,4 +1,4 @@
 interface:
-  display_name: "AlanPDF"
+  display_name: "AlanPDF Skill"
   short_description: "Business PDFs for proposals, pricing memos, and research reports"
   default_prompt: "Use $alanpdf to turn this markdown into a business-grade PDF. Choose the scenario blueprint first, then pick the matching style and density."

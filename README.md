@@ -1,8 +1,8 @@
-# AlanPDF
+# AlanPDF Skill
 
 Business-grade PDF generation from Markdown, tuned for proposals, pricing memos, and equity-style research reports.
 
-AlanPDF is a Codex skill plus a deterministic renderer. It takes structured Markdown and produces polished PDFs with integrated cover layouts, business-friendly tables, semantic callout blocks, CJK and Latin typography, and scenario-specific visual blueprints.
+AlanPDF Skill is a Codex skill plus a deterministic renderer. It takes structured Markdown and produces polished PDFs with integrated cover layouts, business-friendly tables, semantic callout blocks, CJK and Latin typography, and scenario-specific visual blueprints.
 
 ## Preview
 
@@ -56,13 +56,13 @@ bash scripts/render_examples.sh
 Clone this repository directly into your Codex skills directory:
 
 ```bash
-git clone https://github.com/BitmanAlan/alanpdf.git ~/.codex/skills/alanpdf
+git clone https://github.com/BitmanAlan/alanpdf-skill.git ~/.codex/skills/alanpdf
 ```
 
 If you prefer SSH:
 
 ```bash
-git clone git@github.com:BitmanAlan/alanpdf.git ~/.codex/skills/alanpdf
+git clone git@github.com:BitmanAlan/alanpdf-skill.git ~/.codex/skills/alanpdf
 ```
 
 The skill entrypoint is [`SKILL.md`](SKILL.md). UI metadata lives in [`agents/openai.yaml`](agents/openai.yaml).
