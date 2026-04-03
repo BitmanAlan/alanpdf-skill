@@ -10,6 +10,8 @@
   <a href="#install-as-a-codex-skill">Install as a Codex Skill</a>
 </p>
 
+![AlanPDF Skill hero](assets/hero/alanpdf-hero.png)
+
 AlanPDF Skill is a Codex skill plus a deterministic renderer. It is built for documents where layout quality matters as much as the words: consulting-style proposals, pricing documents with dense numeric tables, and research reports that need institutional structure rather than generic Markdown export styling.
 
 Instead of treating every file like a theme problem, AlanPDF starts with document intent. You choose a blueprint such as `proposal`, `pricing-memo`, or `equity-report`, then layer a style preset on top. The result is a PDF that reads like a finished business document, not a markdown-to-pdf conversion artifact.
