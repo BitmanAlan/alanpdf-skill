@@ -1,13 +1,13 @@
 ---
 name: alanpdf
-description: Generate business-grade PDFs from Markdown with scenario-driven document blueprints, especially for Chinese proposals, whitepapers, pricing memos, project费用说明,报价单,策划方案, securities research reports,投顾快评, and other table-heavy business documents. Use when the user wants a professionally typeset PDF that should feel like a consulting proposal, polished pricing memo, or broker-style research report rather than a generic markdown export.
+description: Generate business-grade Markdown-to-PDF documents with scenario-driven blueprints, especially for Chinese proposals, whitepapers, quotations, pricing memos, project费用说明,报价单,策划方案, securities research reports,投顾快评, and other table-heavy business documents. Use when the user wants a professionally typeset PDF that should feel like a consulting proposal, polished fee memo, or broker-style research report rather than a generic markdown export.
 ---
 
 # AlanPDF
 
 ## Overview
 
-Use `alanpdf` for business documents where structure matters as much as color. This skill is optimized for continuous corporate documents with integrated cover blocks, restrained corporate styling, strong section hierarchy, scenario-specific content blocks, and tables that need numeric alignment and semantic emphasis.
+Use `alanpdf` for business documents where structure matters as much as color. This skill is optimized for Markdown-to-PDF workflows that need integrated cover blocks, restrained corporate styling, strong section hierarchy, scenario-specific content blocks, and tables that need numeric alignment and semantic emphasis.
 
 Read [references/blueprints.md](references/blueprints.md) and [references/styles.md](references/styles.md) before collecting options or mapping the document.
 

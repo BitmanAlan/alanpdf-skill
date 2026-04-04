@@ -1,6 +1,6 @@
 <div align="center">
   <h1>AlanPDF Skill</h1>
-  <p>Turn structured Markdown into business-grade PDFs for proposals, pricing memos, and equity-style research reports.</p>
+  <p>Markdown-to-PDF skill and deterministic renderer for consulting proposals, pricing memos, whitepapers, quotations, and equity research reports.</p>
 </div>
 
 <p align="center">
@@ -12,21 +12,40 @@
 
 ![AlanPDF Skill hero](assets/hero/alanpdf-hero.png)
 
-AlanPDF Skill is a Codex skill plus a deterministic renderer. It is built for documents where layout quality matters as much as the words: consulting-style proposals, pricing documents with dense numeric tables, and research reports that need institutional structure rather than generic Markdown export styling.
+AlanPDF Skill is a Codex skill and Markdown-to-PDF renderer for business documents where layout quality matters as much as the words. It is built for consulting-style proposals, whitepapers, pricing and quotation documents, project fee memos, and equity-style research reports that need institutional structure instead of generic Markdown export styling.
 
-Instead of treating every file like a theme problem, AlanPDF starts with document intent. You choose a blueprint such as `proposal`, `pricing-memo`, or `equity-report`, then layer a style preset on top. The result is a PDF that reads like a finished business document, not a markdown-to-pdf conversion artifact.
+Instead of treating every file like a theme problem, AlanPDF starts with document intent. You choose a blueprint such as `proposal`, `pricing-memo`, or `equity-report`, then layer a style preset on top. The result is a PDF that reads like a finished business deliverable, not a plain markdown-to-pdf conversion artifact.
+
+## Use AlanPDF When You Need To
+
+- Convert Markdown to PDF for client-ready proposals and strategy documents.
+- Generate pricing memos, quotations, and fee breakdown PDFs with clean numeric tables.
+- Produce Chinese and bilingual business PDFs with stronger typography and spacing.
+- Render equity research notes, coverage initiations, and market update reports.
+- Install a reusable Codex skill for business-grade PDF generation with deterministic output.
 
 ## Why AlanPDF
 
-Most Markdown PDF tools are good at generic reports. They break down when the document needs to feel commercial, client-ready, or sell-side.
+Most Markdown PDF tools are good at generic reports. They break down when the document needs to feel commercial, client-ready, bilingual, or sell-side.
 
 AlanPDF is designed to solve that gap:
 
 - Blueprint-first rendering: document structure comes before colors.
 - Business table handling: pricing, forecast, valuation, and comparison tables get semantic treatment.
 - CJK and Latin support: Chinese and English can live in the same document cleanly.
-- Integrated first pages: proposals and research notes start like real deliverables, not like plain exports.
+- Integrated first pages: proposals, quotations, and research notes start like real deliverables, not like plain exports.
 - Deterministic output: same input, same result, which makes iteration practical.
+
+## Keywords And Search Intent
+
+People usually find this repository when they are looking for one of these jobs:
+
+- markdown to pdf for proposals
+- markdown to pdf for pricing memo or quotation
+- business pdf generator for Chinese documents
+- consulting proposal pdf template from markdown
+- equity research report pdf generator
+- Codex skill for reportlab PDF generation
 
 ## Designed For
 
@@ -122,6 +141,10 @@ git clone git@github.com:BitmanAlan/alanpdf-skill.git ~/.codex/skills/alanpdf
 ```
 
 The skill entrypoint is [`SKILL.md`](SKILL.md). UI metadata lives in [`agents/openai.yaml`](agents/openai.yaml).
+
+## Why This Repository Exists
+
+This repository exists for teams and solo operators who already write in Markdown but need the final output to look like a proposal, fee memo, board-facing whitepaper, or broker-style report. The goal is not generic document export. The goal is repeatable, business-grade PDF output with better tables, better covers, and better first-page structure.
 
 ## Style Presets
 
